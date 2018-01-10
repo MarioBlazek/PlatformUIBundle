@@ -80,6 +80,7 @@ YUI.add('ez-locationviewdetailstabview', function (Y) {
                 "contentCreator": owner,
                 "translationsList": translationsList,
                 "languageCount": translationsList.length,
+                "loadingError": this.get('loadingError'),
                 "lastContributorLoadingError": this.get('creatorLoadingError'),
                 "contentCreatorLoadingError": this.get('ownerLoadingError'),
                 "sortFields": this._getSortFields(),
